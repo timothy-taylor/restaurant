@@ -1,7 +1,3 @@
-function component() {
-  const element = document.createElement('div');
+import load_home from './home';
 
-  return element;
-}
-
-document.body.appendChild(component());
+load_home();
