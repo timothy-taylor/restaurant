@@ -1,6 +1,6 @@
 const reviews = () => {
     const element = document.createElement('P');
-    element.innerHTML = "Give us a call";
+    element.innerHTML = "Some rave reviews!";
     return element;
 }
 
