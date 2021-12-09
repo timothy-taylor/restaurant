@@ -1,10 +1,8 @@
 const footer = () => {
     const element = document.createElement('FOOTER');
-    const hr = document.createElement('HR');
     const text = document.createElement('DIV');
-    text.innerHTML = "2021 RVP";
+    text.innerHTML = "2021 Pizza";
 
-    element.appendChild(hr);
     element.appendChild(text);
     return element;
 }
